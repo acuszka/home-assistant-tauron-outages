@@ -3,11 +3,6 @@
 Home Assistant custom integration for checking Tauron Dystrybucja power outages
 and planned electricity shutdowns for a configured address in Poland.
 
-This is a HACS custom integration, not a Home Assistant OS add-on.
-
-Useful search terms: Home Assistant Tauron, Tauron outages, Tauron awarie,
-Tauron wyłączenia prądu, Tauron Dystrybucja, HACS.
-
 ## What It Does
 
 - Resolves a configured city and street using Tauron's public autocomplete API.
