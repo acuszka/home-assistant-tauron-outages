@@ -1,0 +1,12 @@
+{
+  "domain": "tauron_outages",
+  "name": "Tauron Outages",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/acuszka/home-assistant-tauron-outages",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/acuszka/home-assistant-tauron-outages/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

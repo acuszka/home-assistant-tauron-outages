@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wyłączenia Tauron",
+        "description": "Podaj adres do monitorowania. Dopasowanie wyłączeń Tauron działa na poziomie ulicy.",
+        "data": {
+          "city": "Miejscowość",
+          "street": "Ulica",
+          "house_number": "Numer domu"
+        }
+      },
+      "city": {
+        "title": "Wybierz miejscowość",
+        "data": {
+          "city_gaid": "Miejscowość"
+        }
+      },
+      "street": {
+        "title": "Wybierz ulicę",
+        "data": {
+          "street_gaid": "Ulica"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie można połączyć się z Tauron",
+      "not_found": "Nie znaleziono pasującej lokalizacji"
+    },
+    "abort": {
+      "already_configured": "Ten adres jest już skonfigurowany"
+    }
+  }
+}
+

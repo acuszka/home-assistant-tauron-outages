@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tauron Outages",
+        "description": "Enter the address to monitor. Tauron outage matching is street-level.",
+        "data": {
+          "city": "City",
+          "street": "Street",
+          "house_number": "House number"
+        }
+      },
+      "city": {
+        "title": "Select city",
+        "data": {
+          "city_gaid": "City"
+        }
+      },
+      "street": {
+        "title": "Select street",
+        "data": {
+          "street_gaid": "Street"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to Tauron",
+      "not_found": "No matching location found"
+    },
+    "abort": {
+      "already_configured": "This address is already configured"
+    }
+  }
+}
+
